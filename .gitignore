@@ -1,4 +1,48 @@
-node_modules
-dist
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/*
+!.yarn/releases
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Environment & secrets (never commit API keys)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Caches & tooling
+.vite/
+.eslintcache
+.cache/
+.parcel-cache/
+coverage/
+.nyc_output/
+.turbo/
+
+# Local Claude / editor / OS files
+.claude/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
 .DS_Store
+Thumbs.db
+
+# Deployment artifacts
+*.zip
+site.zip
