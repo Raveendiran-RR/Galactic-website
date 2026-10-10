@@ -5,6 +5,8 @@ Built with Vite, React, TypeScript, React Three Fiber, GSAP, Tailwind CSS and Zu
 
 > The visual identity is *inspired by the atmosphere* of classic space-opera cinema, but contains no franchise logos, characters, ship models, fonts, music or sound effects. All geometry is procedural, all audio is synthesised with WebAudio, and fonts are open-licence (Orbitron, Rajdhani, Share Tech Mono via `@fontsource`).
 
+**Live site:** <https://raveendiran-rr.github.io/Galactic-website/>
+
 ## What's inside
 
 | Experience | What it does |
