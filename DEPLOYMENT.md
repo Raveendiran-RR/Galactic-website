@@ -99,3 +99,12 @@ Use the checklist below. If you ship an update, re-upload `dist/` and hard-refre
 | Old version still shows | Hard-refresh (⌘⇧R / Ctrl+F5); clear Hostinger CDN cache in hPanel → *Performance → Cache*. |
 | Redirect loop after enabling HTTPS | Use only **one** of: hPanel *Force HTTPS* or the `.htaccess` rule. |
 | Site in a sub-folder | Works unchanged (relative asset paths). Upload to that folder instead of `public_html` root. |
+
+## Alternative: GitHub Pages
+
+`.github/workflows/deploy.yml` builds and publishes `dist/` on every push to `main`.
+
+1. Repo → **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+2. Push to `main` (or run the workflow from the **Actions** tab).
+3. The site appears at `https://<user>.github.io/<repo>/` — asset URLs are relative, so the sub-path works unchanged.
+4. Custom domain (optional): add it under **Settings → Pages**, create the DNS records GitHub lists, and don't serve the same site from Hostinger at the same time. `.htaccess` is ignored on Pages (HTTPS is built in).
