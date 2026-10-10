@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "id": "ai",
+      "label": "Artificial Intelligence",
+      "items": ["Agentic AI", "LLMs", "RAG", "MCP", "AI Agents", "AI Security", "Claude Code", "AI Architecture"]
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud Native & Infrastructure",
+      "items": ["Docker", "Kubernetes", "Docker Sandboxes", "Container Security", "Cloud Architecture", "DevOps", "Infrastructure Automation"]
+    },
+    {
+      "id": "systems",
+      "label": "System Design & Engineering",
+      "items": ["Distributed Systems", "Technical Architecture", "System Integration", "API Design", "Technical Program Management", "Enterprise Technology"]
+    },
+    {
+      "id": "advocacy",
+      "label": "Advocacy & Communication",
+      "items": ["Developer Advocacy", "Technical Speaking", "Technical Writing", "Community Building"]
+    }
+  ]
+}

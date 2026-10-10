@@ -1,0 +1,77 @@
+@import '@fontsource/orbitron/latin-500.css';
+@import '@fontsource/orbitron/latin-700.css';
+@import '@fontsource/orbitron/latin-900.css';
+@import '@fontsource/rajdhani/latin-400.css';
+@import '@fontsource/rajdhani/latin-500.css';
+@import '@fontsource/rajdhani/latin-600.css';
+@import '@fontsource/rajdhani/latin-700.css';
+@import '@fontsource/share-tech-mono/latin-400.css';
+@import 'tailwindcss';
+@import './hud.css';
+
+@theme {
+  --font-display: 'Orbitron', 'Eurostile', 'Segoe UI', system-ui, sans-serif;
+  --font-body: 'Rajdhani', 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'Share Tech Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  --color-void: #02050b;
+  --color-navy: #061226;
+  --color-holo: #3cc8ff;
+  --color-amber: #ffb547;
+  --color-ink: #e8f3ff;
+  --color-mute: #8fa8c4;
+}
+
+:root {
+  --blue: #3cc8ff;
+  --amber: #ffb547;
+  --ink: #e8f3ff;
+  --mute: #8fa8c4;
+  --void: #02050b;
+  --line: rgba(60, 200, 255, 0.4);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: var(--void);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+::selection {
+  background: rgba(60, 200, 255, 0.35);
+}
+
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

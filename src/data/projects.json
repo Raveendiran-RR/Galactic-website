@@ -1,0 +1,69 @@
+{
+  "note": "All entries here are SAMPLE placeholders. Replace them with real projects; leave github/demo empty until real URLs exist.",
+  "projects": [
+    {
+      "id": "docker-agent-sandbox",
+      "title": "Secure AI Agent Sandbox",
+      "description": "Exploring isolated environments for AI agents",
+      "category": "AI Security",
+      "technologies": ["Docker", "MCP", "AI Agents"],
+      "github": "",
+      "demo": "",
+      "architecture": [
+        "Agent runtime launched inside a disposable container",
+        "Policy layer restricts filesystem, network and tool access",
+        "MCP tool servers exposed through a controlled gateway",
+        "Audit log records every tool invocation"
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "agentic-rag-navigator",
+      "title": "Agentic RAG Knowledge Navigator",
+      "description": "Retrieval-augmented agent that plans multi-step lookups over technical documentation",
+      "category": "Agentic AI",
+      "technologies": ["LLMs", "RAG", "Vector Search", "TypeScript"],
+      "github": "",
+      "demo": "",
+      "architecture": [
+        "Ingestion pipeline chunks and embeds source documents",
+        "Planner agent decomposes a question into retrieval steps",
+        "Retriever returns ranked passages with citations",
+        "Answer composer verifies claims against retrieved evidence"
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "k8s-platform-blueprint",
+      "title": "Kubernetes Platform Blueprint",
+      "description": "Reference architecture for a developer-friendly internal Kubernetes platform",
+      "category": "Cloud Native",
+      "technologies": ["Kubernetes", "Docker", "DevOps", "Infrastructure Automation"],
+      "github": "",
+      "demo": "",
+      "architecture": [
+        "GitOps-driven cluster configuration",
+        "Golden-path service templates for developers",
+        "Policy and security guardrails at admission time",
+        "Observability stack shared across workloads"
+      ],
+      "status": "sample"
+    },
+    {
+      "id": "mcp-tool-gateway",
+      "title": "MCP Tool Gateway",
+      "description": "Gateway that brokers and governs access to Model Context Protocol tool servers",
+      "category": "AI Architecture",
+      "technologies": ["MCP", "API Design", "AI Security"],
+      "github": "",
+      "demo": "",
+      "architecture": [
+        "Single entry point for agent tool calls",
+        "Per-tool authorisation and rate limiting",
+        "Request / response schema validation",
+        "Central telemetry for tool usage"
+      ],
+      "status": "sample"
+    }
+  ]
+}

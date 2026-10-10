@@ -1,0 +1,96 @@
+{
+  "name": "Raveendiran R.R.",
+  "firstName": "Raveendiran",
+  "website": "https://raveendiran.com",
+  "headline": "Architecting Intelligent Systems. Engineering Developer Experiences.",
+  "tagline": "From Enterprise Systems to Intelligent Agents.",
+  "introLines": {
+    "opening": "A long time ago, in a technology landscape far, far away...",
+    "motto": "ONE ARCHITECT. INFINITE POSSIBILITIES.",
+    "title": "THE GALACTIC ARCHITECT",
+    "domains": "AI • CLOUD NATIVE • AGENTIC SYSTEMS"
+  },
+  "roles": [
+    "AI Architect",
+    "Agentic AI Engineer",
+    "Cloud-Native Technology Specialist",
+    "Docker & Kubernetes Expert",
+    "Technical Program Manager",
+    "Developer Advocate",
+    "Technology Speaker"
+  ],
+  "experience": {
+    "years": "18+",
+    "label": "years in Information Technology"
+  },
+  "summary": "Raveendiran R.R. is an experienced technology professional with 18+ years in Information Technology, transitioning toward AI Architecture, Agentic AI Engineering, Developer Advocacy, and advanced technical leadership.",
+  "positioning": "Experienced technology professional transitioning toward AI Architecture, Agentic AI Engineering, Developer Advocacy, and advanced technical leadership.",
+  "specializations": [
+    "AI Architecture",
+    "Agentic AI",
+    "Docker",
+    "Kubernetes",
+    "Cloud Native",
+    "Technical Program Management",
+    "Developer Advocacy",
+    "Enterprise Technology"
+  ],
+  "affiliationNote": "Technical expertise and community contributions described on this site are separate from employment history. Mentioning a technology or vendor (for example Docker) does not imply employment by, or endorsement from, that organisation.",
+  "contact": {
+    "email": "",
+    "linkedin": "",
+    "github": "",
+    "x": "",
+    "youtube": "",
+    "location": "",
+    "collaborateMessage": "Open to collaboration, speaking invitations, advisory conversations and AI / cloud-native architecture roles."
+  },
+  "resume": {
+    "url": "",
+    "label": "Download Resume",
+    "note": "No resume file is published yet. Place a PDF in public/ (for example public/resume.pdf) and set resume.url to \"./resume.pdf\"."
+  },
+  "leadership": {
+    "areas": [
+      "Technical Program Management",
+      "Technical Architecture",
+      "Enterprise Technology"
+    ],
+    "highlights": [],
+    "note": "No specific leadership achievements are listed yet. Add them to leadership.highlights in src/data/profile.json."
+  },
+  "certifications": [],
+  "certificationsNote": "No certifications are listed yet. Add verified certifications to src/data/profile.json.",
+  "timeline": [
+    {
+      "period": "18+ years",
+      "title": "Information Technology career",
+      "detail": "A long career in enterprise information technology.",
+      "status": "profile"
+    },
+    {
+      "period": "Specialisation",
+      "title": "Technical Program Management & Enterprise Technology",
+      "detail": "Delivery and technical leadership across enterprise technology.",
+      "status": "profile"
+    },
+    {
+      "period": "Now",
+      "title": "Moving toward AI Architecture & Agentic AI Engineering",
+      "detail": "Building depth in agentic systems, RAG, MCP and AI security, alongside Docker and Kubernetes expertise.",
+      "status": "profile"
+    },
+    {
+      "period": "Next",
+      "title": "Developer Advocacy & Technology Speaking",
+      "detail": "Sharing knowledge through talks, writing and community contributions.",
+      "status": "profile"
+    },
+    {
+      "period": "YYYY – YYYY",
+      "title": "SAMPLE — Role, Organisation",
+      "detail": "Replace this placeholder with real employment history in src/data/profile.json → timeline.",
+      "status": "sample"
+    }
+  ]
+}

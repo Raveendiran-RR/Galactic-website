@@ -1,0 +1,113 @@
+{
+  "planets": [
+    {
+      "id": "neural-nexus",
+      "name": "NEURAL NEXUS",
+      "category": "Artificial Intelligence",
+      "description": "A living neural-network world of agents, models and data.",
+      "color": "#3cc8ff",
+      "skillGroup": "ai",
+      "topics": [
+        "Agentic AI",
+        "LLMs",
+        "RAG",
+        "MCP",
+        "AI Agents",
+        "AI Security",
+        "Claude Code",
+        "AI Architecture"
+      ],
+      "terminalAlias": "ai",
+      "assistantQuestion": "Tell me about his agentic AI expertise"
+    },
+    {
+      "id": "container-prime",
+      "name": "CONTAINER PRIME",
+      "category": "Cloud Native & Infrastructure",
+      "description": "An industrial world ringed by orbital container stations.",
+      "color": "#ffb547",
+      "skillGroup": "cloud",
+      "topics": [
+        "Docker",
+        "Kubernetes",
+        "Docker Sandboxes",
+        "Container Security",
+        "Cloud Architecture",
+        "DevOps",
+        "Infrastructure Automation"
+      ],
+      "terminalAlias": "cloud",
+      "assistantQuestion": "What is his Docker experience?"
+    },
+    {
+      "id": "architects-forge",
+      "name": "ARCHITECT'S FORGE",
+      "category": "System Design & Engineering",
+      "description": "A gigantic orbital engineering station where systems are forged.",
+      "color": "#7aa8ff",
+      "skillGroup": "systems",
+      "topics": [
+        "Distributed Systems",
+        "Technical Architecture",
+        "System Integration",
+        "API Design",
+        "Technical Program Management",
+        "Enterprise Technology"
+      ],
+      "terminalAlias": "forge",
+      "assistantQuestion": "Tell me about his system design and architecture work"
+    },
+    {
+      "id": "project-nebula",
+      "name": "PROJECT NEBULA",
+      "category": "GitHub & Projects",
+      "description": "A cluster of holographic satellites, each carrying a project.",
+      "color": "#b78bff",
+      "skillGroup": null,
+      "topics": [
+        "Projects",
+        "GitHub",
+        "Architecture overviews"
+      ],
+      "terminalAlias": "nebula",
+      "assistantQuestion": "What projects has he built?"
+    },
+    {
+      "id": "broadcast-station",
+      "name": "BROADCAST STATION",
+      "category": "Developer Advocacy & Speaking",
+      "description": "A massive communications satellite broadcasting talks and ideas.",
+      "color": "#5affc4",
+      "skillGroup": "advocacy",
+      "topics": [
+        "Technical talks",
+        "Webinars",
+        "Conference presentations",
+        "Community",
+        "Blog articles",
+        "Video content"
+      ],
+      "terminalAlias": "broadcast",
+      "assistantQuestion": "Has he delivered technical talks?"
+    },
+    {
+      "id": "commanders-archive",
+      "name": "COMMANDER'S ARCHIVE",
+      "category": "About Me & Career",
+      "description": "An ancient futuristic vault of knowledge, career and contact.",
+      "color": "#ffd37a",
+      "skillGroup": null,
+      "topics": [
+        "Summary",
+        "Career timeline",
+        "Leadership",
+        "Certifications",
+        "Skills",
+        "Resume",
+        "Contact"
+      ],
+      "terminalAlias": "archive",
+      "assistantQuestion": "Who is Raveendiran?"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "note": "All entries below are SAMPLE placeholders — no real talks are listed yet. Replace them with real engagements.",
+  "topics": ["Agentic AI", "AI Architecture", "Docker & Containers", "Kubernetes", "Developer Experience"],
+  "items": [
+    { "id": "sample-talk", "type": "talk", "title": "SAMPLE — Conference talk title", "event": "Event name", "date": "YYYY-MM", "url": "", "status": "sample" },
+    { "id": "sample-webinar", "type": "webinar", "title": "SAMPLE — Webinar title", "event": "Host / platform", "date": "YYYY-MM", "url": "", "status": "sample" },
+    { "id": "sample-community", "type": "community", "title": "SAMPLE — Community contribution", "event": "Community / project", "date": "YYYY-MM", "url": "", "status": "sample" },
+    { "id": "sample-article", "type": "article", "title": "SAMPLE — Blog article title", "event": "Publication", "date": "YYYY-MM", "url": "", "status": "sample" },
+    { "id": "sample-video", "type": "video", "title": "SAMPLE — Video content title", "event": "Channel", "date": "YYYY-MM", "url": "", "status": "sample" }
+  ]
+}
